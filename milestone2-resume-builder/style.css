@@ -54,3 +54,17 @@ button:hover {
   background-color: #13f1fc;
   color: #0470dc;
 }
+@media(max-width:420px){
+  .image{
+    margin-left: 180px;
+    height: 135px;
+    width: 120px;
+  }
+}
+@media(max-width:390px){
+  .image{
+    margin-left: 180px;
+    height: 120px;
+    width: 105px;
+  }
+}
