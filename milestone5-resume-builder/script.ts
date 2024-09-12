@@ -39,15 +39,6 @@ output.scrollIntoView({ behavior: "smooth", block:"start"})
 
 
 
-// Handle share button click
-shareButton.addEventListener('click', function() {
-    const username = prompt("Please enter your username"); // Prompt for username
-    if (username) {
-        const url = `https://${username}.vercel.app/resume`; // Construct the URL
-        navigator.clipboard.writeText(url).then(() => {
-            alert('Resume link copied to clipboard!');
-        }).catch(err => {
-            console.error('Failed to copy URL: ', err);
-        });
-    }
-});
+
+
+

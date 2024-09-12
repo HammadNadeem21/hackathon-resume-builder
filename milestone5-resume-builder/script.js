@@ -25,15 +25,3 @@ submit.addEventListener('click', function (event) {
     output.style.display = "block";
     output.scrollIntoView({ behavior: "smooth", block: "start" });
 });
-// Handle share button click
-shareButton.addEventListener('click', function () {
-    var username = prompt("Please enter your username"); // Prompt for username
-    if (username) {
-        var url = "https://".concat(username, ".vercel.app/resume"); // Construct the URL
-        navigator.clipboard.writeText(url).then(function () {
-            alert('Resume link copied to clipboard!');
-        }).catch(function (err) {
-            console.error('Failed to copy URL: ', err);
-        });
-    }
-});
