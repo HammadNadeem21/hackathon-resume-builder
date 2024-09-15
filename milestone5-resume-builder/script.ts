@@ -1,6 +1,4 @@
 var submit = document.getElementById("submit") as HTMLButtonElement;
-var downloadButton = document.getElementById("downloadPdf") as HTMLButtonElement;
-var shareButton = document.getElementById("shareLink") as HTMLButtonElement;
 
 
 
@@ -34,11 +32,9 @@ outputEducation.innerHTML = inputEducation.value;
 outputExperience.innerHTML = inputExperience.value;
 outputSkill.innerHTML = inputSkill.value;
 output.style.display = "block";
-output.scrollIntoView({ behavior: "smooth", block:"start"})
+output.scrollIntoView({ behavior: "smooth", block:"start"});
+
+
+
 });
-
-
-
-
-
 

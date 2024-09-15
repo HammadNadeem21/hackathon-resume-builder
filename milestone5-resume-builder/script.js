@@ -1,6 +1,4 @@
 var submit = document.getElementById("submit");
-var downloadButton = document.getElementById("downloadPdf");
-var shareButton = document.getElementById("shareLink");
 var inputName = document.getElementById("name");
 var outputName = document.getElementById("opName");
 var inputEmail = document.getElementById("email");
