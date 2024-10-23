@@ -1,166 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynamic-resume-builder</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Dynamic Resume Builder</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dynamic Resume Builder</h1>
 
-  <form id="resume-form">
-    <fieldset>
-      <legend>Persnol Information</legend>
-      <label for="name">Name:</label>
-      <input type="text" id="name" placeholder="Enter your name" required>
+    <form id="resume-form">
+      <fieldset>
+        <legend>Persnol Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="Enter your email" required>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
 
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" placeholder="Enter your number" required>
-    </fieldset>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="Enter your number" required />
+      </fieldset>
 
-    <fieldset>
-      <legend>Education</legend>
-      <label for="education">Education:</label>
-      <textarea id="education" placeholder="Enter your education" rows="4" required></textarea>
-    </fieldset>
+      <fieldset>
+        <legend>Education</legend>
+        <label for="education">Education:</label>
+        <textarea
+          id="education"
+          placeholder="Enter your education"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
 
-    <fieldset>
-      <legend>Experience:</legend>
-      <label for="expireince">Experience:</label>
-      <textarea id="experience" placeholder="Enter your experience" rows="4" required></textarea>
-    </fieldset>
+      <fieldset>
+        <legend>Experience:</legend>
+        <label for="expireince">Experience:</label>
+        <textarea
+          id="experience"
+          placeholder="Enter your experience"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
 
-    <fieldset>
-      <legend>Skills</legend>
-      <label for="skills">Skills:</label>
-      <textarea id="skills" placeholder="Enter your skills" rows="4" required></textarea>
-    </fieldset>
+      <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Skills:</label>
+        <textarea
+          id="skills"
+          placeholder="Enter your skills"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
 
-    <button type="submit">Genrate Resume</button>
-  </form>
-  <br>
-  <!-- Dynamic-Resume -->
-   <div id="resume-display">
-      
-   </div>
+      <button type="submit">Genrate Resume</button>
+    </form>
+    <br />
+    <!-- Dynamic-Resume -->
+    <div id="resume-display"></div>
 
-    <!-- <div class="container">
-        <h1>
-          Dynamic Resume Builder <br />
-          Made By <br />
-          Hammad Nadeem
-        </h1>
-  
-        <form id="resume-form">
-          <fieldset>
-            <legend>Persnol Information</legend>
-  
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required/>
-  
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-  
-            <label for="phone">Phone:</label>
-            <input type="number" name="phone" id="phone" required />
-  
-         
-          </fieldset>
-  
-          <fieldset>
-            <legend>Education</legend>
-            <label for="experience">Education:</label>
-            <textarea name="education" id="education" rows="3" required></textarea
-            ><br />
-          </fieldset>
-  
-          <fieldset>
-            <legend>Experience</legend>
-            <label for="experience">Experience:</label>
-            <textarea
-              name="experience"
-              id="experience"
-              rows="3"
-              required
-            ></textarea
-            ><br />
-          </fieldset>
-  
-          <fieldset>
-            <legend>Skills</legend>
-            <label for="skills">Skills:</label>
-            <textarea name="skills" id="skill" rows="3" required></textarea
-            ><br />
-          </fieldset>
-
-          <button type="submit" id="submit">Submit</button>
-        </form> -->
-
-
-        <!-- Output -->
-        <!-- <div class="output">
-
-            <div class="Information">
-                <h1>Persnol Information</h1> -->
-                
-                <!-- Name -->
-            <!-- <div>
-            <h2>Name:</h2>
-            <h3 id="opName"></h3>
-        </div> -->
-
-        <!-- Email -->
-        <!-- <div>
-            <h2>Email:</h2>
-            <h3 id="opEmail"></h3>
-        </div> -->
-
-
-<!-- Phone -->
-        <!-- <div>
-            <h2>Phone:</h2>
-            <h3 id="opPhone"></h3>
-        </div> -->
-
-
-        <!-- Education -->
-         <!-- <div class="education">
-            <h1>Education:</h1>
-         </div>
-         <div> -->
-            <!-- <h3 id="opEducation"></h3>
-         </div> -->
-
-         <!-- Experience -->
-         <!-- <div class="experience">
-            <h1>Experience:</h1>
-         </div>
-         <div>
-            <h3 id="opExperience"></h3>
-         </div> -->
-
-         <!-- Skills -->
-         <!-- <div class="skills">
-            <h1>Skills:</h1>
-         </div>
-         <div>
-            <h3 id="opSkill"></h3>
-         </div>
-    </div>
-
-
-        </div>
-      </div> -->
-
-
-
-
-      
-      <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
