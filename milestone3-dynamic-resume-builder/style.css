@@ -1,45 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: "Poppins", sans-serif;
-    margin: 20px;
-    padding: 0
-    ;background-color: #318894;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-form{
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #00246b;
+}
+form {
   margin: auto;
-  background-color: #43e9ff;
+  background-color: #cadcfc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   padding: 20px;
   max-width: 600px;
 }
-h1{
+h1 {
   text-align: center;
-  color: wheat;
+  color: #cadcfc;
 }
-fieldset{
-  border: 2px solid #59cfdf;
+fieldset {
+  border: 2px solid #8ab6f9;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
   color: black;
 }
-legend{
+legend {
   font-weight: bold;
+  font-size: 25px;
   text-align: left;
-  color: black;
+  color: #00246b;
 }
-label{
+label {
+  font-size: 20px;
+  font-weight: 500;
   display: block;
   margin-top: 10px;
-  color: black;
+  color: #00246b;
 }
-input, textarea{
+input,
+textarea {
   margin-top: 4px;
   padding: 8px;
   width: calc(100% - 1px);
@@ -47,11 +51,11 @@ input, textarea{
   border-radius: 4px;
   box-sizing: border-box;
 }
-button{
+button {
   display: block;
   width: 100%;
-  background-color: #318894;
-  color: black;
+  background-color: #8ab6f9;
+  color: #00246b;
   border: none;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -59,25 +63,29 @@ button{
   font-size: 18px;
   padding: 10px;
   cursor: pointer;
+  font-weight: bold;
 }
-button:hover{
-  background-color: #43e9ff;
+button:hover {
+  background-color: #00246b;
+  color: #8ab6f9;
 }
-#resume-display{
+#resume-display {
   max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 2px solid skyblue;
-    border-radius: 8px;
-    background-color: rgb(228, 242, 255);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-
+  color: #00246b;
+  line-height: 40px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid skyblue;
+  border-radius: 8px;
+  background-color: rgb(228, 242, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-#resume-display h2 {
-  color: black;
+#resume-display h1, h2 {
+  color: #00246b;
 }
 
-  /* .container {
+
+/* .container {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(-90deg, #13f1fc, #0470dc);
@@ -87,7 +95,7 @@ button:hover{
     padding-top: 30px;
     
   } */
-  /* #resume-form {
+/* #resume-form {
     margin: auto;
     margin-top: 50px;
     max-width: 400px;
@@ -96,24 +104,24 @@ button:hover{
     padding: 30px;
     text-align: left;
   } */
-  /* fieldset {
+/* fieldset {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
     border: 2px solid #0470dc;
   } */
-  /* legend {
+/* legend {
     font-weight: bolder;
     text-align: left;
     font-size: 25px;
   } */
-  /* label {
+/* label {
     display: block;
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
   } */
-  /* input,
+/* input,
   textarea {
     width: calc(100% - 1px);
     border-radius: 4px;
@@ -124,7 +132,7 @@ button:hover{
   #profilePicture {
     border: none;
   } */
-  /* button {
+/* button {
     display: block;
     width: 100%;
     background-color: #0470dc;
@@ -141,8 +149,8 @@ button:hover{
     color: #0470dc;
   } */
 
-  /* OUTPUT */
-  /* .output{
+/* OUTPUT */
+/* .output{
     margin: auto;
     margin-top: 50px;
     max-width: 400px;
@@ -168,7 +176,7 @@ button:hover{
   .output div{
     margin-top: 20px;
   } */
-  /* .output .Information .education{
+/* .output .Information .education{
     margin-top: 50px;
     line-height: 10px;
   }
@@ -180,4 +188,3 @@ button:hover{
     margin-top: 50px;
     line-height: 10px;
   } */
-
