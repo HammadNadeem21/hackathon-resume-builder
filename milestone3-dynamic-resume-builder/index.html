@@ -1,71 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dynamic-resume-builder</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Dynamic Resume Builder</h1>
 
-    <form id="resume-form">
-      <fieldset>
-        <legend>Persnol Information</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" placeholder="Enter your name" required />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic-resume-builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          placeholder="Enter your email"
-          required
-        />
+<body>
+  <h1>Dynamic Resume Builder</h1>
 
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" placeholder="Enter your number" required />
-      </fieldset>
+  <form id="resume-form">
+    <fieldset>
+      <legend>Persnol Information</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
 
-      <fieldset>
-        <legend>Education</legend>
-        <label for="education">Education:</label>
-        <textarea
-          id="education"
-          placeholder="Enter your education"
-          rows="4"
-          required
-        ></textarea>
-      </fieldset>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
 
-      <fieldset>
-        <legend>Experience:</legend>
-        <label for="expireince">Experience:</label>
-        <textarea
-          id="experience"
-          placeholder="Enter your experience"
-          rows="4"
-          required
-        ></textarea>
-      </fieldset>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" placeholder="Enter your number" required />
+    </fieldset>
 
-      <fieldset>
-        <legend>Skills</legend>
-        <label for="skills">Skills:</label>
-        <textarea
-          id="skills"
-          placeholder="Enter your skills"
-          rows="4"
-          required
-        ></textarea>
-      </fieldset>
+    <fieldset>
+      <legend>Education</legend>
+      <label for="education">Education:</label>
+      <textarea id="education" placeholder="Enter your education" rows="4" required></textarea>
+    </fieldset>
 
-      <button type="submit">Genrate Resume</button>
-    </form>
-    <br />
-    <!-- Dynamic-Resume -->
-    <div id="resume-display"></div>
+    <fieldset>
+      <legend>Experience:</legend>
+      <label for="expireince">Experience:</label>
+      <textarea id="experience" placeholder="Enter your experience" rows="4" required></textarea>
+    </fieldset>
 
-    <script src="script.js"></script>
-  </body>
+    <fieldset>
+      <legend>Skills</legend>
+      <label for="skills">Skills:</label>
+      <textarea id="skills" placeholder="Enter your skills" rows="4" required></textarea>
+    </fieldset>
+
+    <button type="submit">Genrate Resume</button>
+  </form>
+  <br />
+  <!-- Dynamic-Resume -->
+  <div id="resume-display"></div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>

@@ -8,7 +8,7 @@ body {
   font-family: "Rubik", sans-serif;
   margin: 20px;
   padding: 0;
-  background-color: #00246b;
+  background-color: #637caf;
 }
 form {
   margin: auto;
@@ -21,7 +21,7 @@ form {
 }
 h1 {
   text-align: center;
-  color: #cadcfc;
+  color: #002566;
 }
 fieldset {
   border: 2px solid #8ab6f9;

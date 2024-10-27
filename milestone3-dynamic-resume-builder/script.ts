@@ -2,7 +2,7 @@ var form = document.getElementById('resume-form') as HTMLFormElement;
 const resumeDisplay = document.getElementById('resume-display') as HTMLDivElement;
 
 // Form Submition
-form.addEventListener('submit', (event: Event) =>{
+form.addEventListener('submit', (event: Event) => {
     event.preventDefault();
 
 
@@ -32,9 +32,9 @@ form.addEventListener('submit', (event: Event) =>{
 
     `;
 
-    if(resumeDisplay){
+    if (resumeDisplay) {
         resumeDisplay.innerHTML = resumeHtml;
-    }else{
+    } else {
         console.error("resume is missing")
     }
 })
